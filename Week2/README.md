@@ -58,17 +58,17 @@ A *dictionary* stores key-value pairs. Methods practised:
 | values() | Returns all values |
 | update({...}) | Updates/adds key-value pairs |
 
-*Example dictionary used:*
+*Example:*
 python
-my_dict = {"name": "Simon", "age": 21, "city": "Nairobi"}
+my_dict = {"name": "Viena", "age": 23, "city": "Nairobi"}
 
 
 A multi-record dictionary was also created using dict() with a list of tuples:
 python
 my_dictionary = dict([
-    ('name', ['Markie', 'Eunice', 'Molenza']),
+    ('name', ['Viena', 'Andrew', 'Brighton']),
     ('age', [22, 20, 26]),
-    ('city', ['Nairobi', 'Nakuru', 'Kisumu'])
+    ('city', ['Nairobi', 'Eldoret', 'Chuka'])
 ])
 
 
@@ -101,10 +101,10 @@ set1.symmetric_difference(set2) # {1, 2, 4, 5}
 
 ---
 
-## Commands Executed (Key Code Snippets)
+## Commands Executed 
 
 python
-# --- LISTS ---
+# LISTS 
 my_list = [1, 2, 3, 4, 5]
 my_list.append(6)
 my_list.extend([7, 8, 9])
@@ -114,17 +114,17 @@ popped_element = my_list.pop(3)
 my_list.sort()
 my_list.reverse()
 
-# --- TUPLES ---
+# TUPLES 
 my_tuple = (1, 2, 3, 4, 5)
 my_tuple.count(3)
 my_tuple.index(4)
 
-# --- DICTIONARIES ---
-my_dict = {"name": "Simon", "age": 21, "city": "Nairobi"}
+# DICTIONARIES 
+my_dict = {"name": "Viena", "age": 23, "city": "Nairobi"}
 my_dict.get('age')
-my_dict.update({'age': 25, 'gender': 'Male'})
+my_dict.update({'age': 26, 'gender': 'Female'})
 
-# --- SETS ---
+# SETS 
 my_set = {1, 2, 3, 4, 5}
 my_set.add(6)
 my_set.update({7, 8, 9})
@@ -138,20 +138,17 @@ set1.symmetric_difference(set2)
 
 ---
 
-## Screenshots of Results
-
-> (Screenshots from Google Colab showing cell outputs are included in the /screenshots folder or can be viewed by opening the .ipynb file directly on GitHub.)
 
 Key outputs observed:
 - [1, 2, 3, 4, 5, 6] → after append(6)
 - [1, 2, 5, 6, 7, 8, 9, 10] → after sort()
-- dict_items([('name', 'Simon'), ('age', 21), ('city', 'Nairobi')]) → .items()
+- dict_items([('name', 'Viena'), ('age', 23), ('city', 'Nairobi')]) → .items()
 - {1, 2, 3, 4, 5} → union() of {1,2,3} and {3,4,5}
 - {3} → intersection() of {1,2,3} and {3,4,5}
 
 ---
 
-## Key Observations / Lessons Learned
+## Key Observations 
 
 1. *Lists are versatile* – they support ordering, indexing, and a rich set of methods for data manipulation.
 2. *Tuples are immutable* – once created they cannot be changed, making them ideal for fixed data like coordinates or configuration values.
