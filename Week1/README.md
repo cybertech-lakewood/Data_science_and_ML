@@ -19,24 +19,23 @@ z = 2 + 3j
 print(type(x))
 print(type(y))
 print(type(z))
--Sequence Data Types
+# Sequence Data Types
 ## Sequence
 Creating list, tuple, and range:
 
 list_ = [1,2,3,4,5]
 tuple_ = (1,2,3,4,5)
 range_ = range(1,5)
-Checking their types:
 
+Checking their types:
 print(type(list_))
 print(type(tuple_))
-Commands Executed
-Command	Purpose
-firstname = 'Viena'	Assign a string variable
-type(x)	Check data type of variable
-list_ = [1,2,3,4,5]	Create a Python list
-tuple_ = (1,2,3,4,5)	Create a Python tuple
-range(1,5)	Create a range sequence
+
+-firstname = 'Viena'	Assign a string variable
+-type(x)	Check data type of variable
+-list_ = [1,2,3,4,5]	Create a Python list
+-tuple_ = (1,2,3,4,5)	Create a Python tuple
+-range(1,5)	Create a range sequence
 
 ## Key Observations
 -Python supports several numeric types, including integers, floats, and complex numbers.
