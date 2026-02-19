@@ -4,22 +4,22 @@ This lab introduces the foundational concepts of the Python programming language
 
 ## Tools Used
 -Python 3.x
--Jupyter Notebook / Google Colab
+-Google Colab
 
 # PYTHON PROGRAMMING LANGUAGE
-2. Variable Declaration
+-Variable Declaration
 firstname = 'Viena'
 print(firstname)
-3. Working With Data Types
+-Working With Data Types
 x = 2
 y = 3.14
 z = 2 + 3j
-Checking the variable types:
+-Checking the variable types:
 
 print(type(x))
 print(type(y))
 print(type(z))
-4. Sequence Data Types
+-Sequence Data Types
 ## Sequence
 Creating list, tuple, and range:
 
@@ -39,12 +39,12 @@ tuple_ = (1,2,3,4,5)	Create a Python tuple
 range(1,5)	Create a range sequence
 
 ## Key Observations
-Python supports several numeric types, including integers, floats, and complex numbers.
+-Python supports several numeric types, including integers, floats, and complex numbers.
 
-type() is useful for identifying variable data types.
+-type() is useful for identifying variable data types.
 
-Lists are mutable, tuples are immutable, and ranges efficiently generate sequences.
+-Lists are mutable, tuples are immutable, and ranges efficiently generate sequences.
 
-Google Colab facilitates interactive coding and testing.
+-Google Colab facilitates interactive coding and testing.
 
 
