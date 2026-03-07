@@ -1,4 +1,4 @@
-# 🔤 Day 1 — Strings & Control Flow
+# 🔤 Day 1 - Strings & Control Flow
 
 A Google Colab notebook documenting my introduction to Python fundamentals: string manipulation and control flow logic.
 
@@ -24,7 +24,7 @@ A Google Colab notebook documenting my introduction to Python fundamentals: stri
 
 | Tool | Purpose |
 |------|---------|
-| [Google Colab](https://colab.research.google.com/) | Cloud-based notebook environment |
+| [Google Colab](https://colab.research.google.com/drive/1Ls_TZH_NWn70DvskMSxa6iIvp8XQnc-I?usp=sharing) | Cloud-based notebook environment |
 | Python 3.x | Programming language |
 
 ---
