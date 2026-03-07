@@ -32,17 +32,6 @@ A Google Colab notebook covering Python functions and data manipulation using th
 | Python 3.x | Programming language |
 | Pandas | Data manipulation and analysis |
 
----
-
-## 🚀 How to Run
-
-1. Click the `.ipynb` file in this repo
-2. Hit **"Open in Colab"** at the top
-3. Run cells using `Shift + Enter`
-
-> No installation needed — runs entirely in the browser!
-
----
 
 ## 📁 File
 
