@@ -1,4 +1,4 @@
-# 🔤 Week 1 — Strings & Control Flow
+# 🔤 DAY 1 — Strings & Control Flow
 
 A Google Colab notebook documenting my introduction to Python fundamentals: string manipulation and control flow logic.
 
