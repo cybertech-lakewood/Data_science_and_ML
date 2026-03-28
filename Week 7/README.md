@@ -1,4 +1,4 @@
-# Supervised Learning (A) — Customer Churn Prediction
+# Supervised Learning (A) - Customer Churn Prediction
 
 A machine learning notebook that builds and evaluates multiple supervised learning models to predict customer churn for an investment bank.
 
